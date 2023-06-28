@@ -4,9 +4,9 @@
 
         <p class="footer-text">
             <router-like class="menu" to="/">Home</router-like>
-            <router-like class="menu" to="/">About</router-like>
-            <router-like class="menu" to="/">Products</router-like>
-            <router-like class="menu" to="/">Admin</router-like>
+            <router-like class="menu" to="/about">About</router-like>
+            <router-like class="menu" to="/products">Products</router-like>
+            <router-like class="menu" to="/admin">Admin</router-like>
         </p>
     </div>
 </template>

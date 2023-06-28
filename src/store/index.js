@@ -22,7 +22,7 @@ export default createStore({
         .then((products) => context.commit("setProducts", products));
     },
     getProduct: async (context, id) => {
-      fetch("http://localhost:3000/products" + id)
+      fetch("http://localhost:3000/products/" + id)
         .then((res) => res.json())
         .then((product) => context.commit("setProduct", product));
     },

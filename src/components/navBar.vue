@@ -1,9 +1,9 @@
 <template>
     <nav class="topnav">
         <router-link class="active link" to="/">Home</router-link>
-        <router-link class="link" to="/">Products</router-link>
-        <router-link class="link" to="/">About</router-link>
-        <router-link class="link" to="/">Admin</router-link>
+        <router-link class="link" to="/products">Products</router-link>
+        <router-link class="link" to="/about">About</router-link>
+        <router-link class="link" to="/admin">Admin</router-link>
     </nav>
 </template>
 
