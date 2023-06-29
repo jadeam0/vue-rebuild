@@ -29,7 +29,7 @@ export default {
     data() {
         return {
             search:"",
-            area: "All"
+            category: "All"
         }
     },
 
@@ -46,7 +46,7 @@ export default {
                 if (!product.name.toLowerCase().includes(this.search.toLowerCase())) {
                     isMatch = false;
                 }
-                if (this.area !== "All" && this.area !== product.area) {
+                if (this.category !== "All" && this.category !== product.category) {
                     isMatch = false
                 }
                 return isMatch
